@@ -1,0 +1,111 @@
+.banner{
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+
+    .sliders{
+        width: 1000vw;
+        height: 100%;
+    }
+    .slide{
+        width: 100vw;
+        height: 100%;
+        display: inline-block;
+        background-color: rgba($color: #000, $alpha: 0.8);
+    }
+    .slidearea{
+        display: flex;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #fff;
+    }
+    h1{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 50px;
+
+        span{
+            color: #b28756;
+            font-size: 50px;
+        }
+    }
+    h2{
+        text-transform: uppercase;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+    
+    .sliders-pointers{
+        width: 100vw;
+        height: 20px;
+        position: absolute;
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pointer{
+        width: 15px;
+        height: 15px;
+        border: 2px solid #b28756;
+        border-radius: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+
+        
+    }
+    .pointer.active{
+        background-color: #b28756;
+    }
+}
+
+.default{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    .section-title,
+    .section-desc{
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .section-title{
+        font-size: 20px;
+    
+    }
+
+    .section-desc{
+        font-size: 12px;
+        color: #aaa;
+        margin-top: 13px;
+        margin-bottom: 40px;
+    }
+
+    .section-body{
+        max-width: 1140px;
+        margin: auto;
+    }
+    .default.light{
+        background-color: #f7f7f7;
+    }
+    .default.light .section-title,
+    .default.light .section-body{
+        color: #000;
+    }
+}
+
+.default.dark{
+    background-color: #000;
+
+    .section-title,
+    .section-body{
+        color: #fff;
+    }
+}
