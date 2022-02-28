@@ -36,6 +36,11 @@
             font-size: 20px;
             margin-left: 30px;
             border: none;
+
+            &:hover{
+                color: #b28756;
+                border: none;
+            }
         }
         li.active a{
             border: none;
