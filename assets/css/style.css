@@ -985,3 +985,234 @@ header .logoimg img {
   }
 }
 /* Mobile */
+@media (max-width: 450px) {
+  .logo {
+    margin-left: 30px;
+  }
+
+  .menu-opener {
+    display: block;
+    width: 35px;
+    margin-right: 30px;
+  }
+
+  nav {
+    display: none;
+    position: absolute;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 80vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+  }
+
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu li a {
+    font-weight: bold;
+    height: 60px;
+    font-size: 20px;
+    margin-left: 30px;
+    border: none;
+  }
+  .menu li.active a {
+    border: none;
+    color: #b28756;
+  }
+
+  .banner h1 {
+    font-size: 30px;
+  }
+  .banner h1 span {
+    font-size: 30px;
+  }
+  .banner h2 {
+    font-size: 17px;
+  }
+
+  .section-aboutus {
+    flex-direction: column;
+  }
+  .section-aboutus .section-aboutus--left {
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .section-aboutus .section-aboutus--right {
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .section-aboutus .section-aboutus--right img {
+    width: 100%;
+  }
+
+  .section-services {
+    flex-wrap: wrap;
+  }
+  .section-services .section-service {
+    min-width: 100%;
+    margin-bottom: 40px;
+  }
+  .section-services .section-service:first-child {
+    border-left: 0;
+  }
+
+  .section-projects .section-projects--filters {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .section-projects .section-projects--filters .section-projects-photos .section-projects--photo {
+    width: 320px;
+  }
+  .section-projects .section-projects--filters .section-projects-photos .section-projects--photo .section-projects--photoarea {
+    width: 300px;
+    height: 190px;
+  }
+
+  .bg-team .section-team {
+    max-width: 280px;
+  }
+
+  .section-clients {
+    max-width: 280px;
+  }
+  .section-clients .slide {
+    width: 280px;
+  }
+
+  .company {
+    height: 200px;
+  }
+  .company .section-company {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  .company .section-company a img {
+    width: 100px;
+    margin: 10px;
+  }
+
+  .section-prices {
+    flex-wrap: wrap;
+  }
+  .section-prices .section-price {
+    min-width: 250px;
+    height: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .section-books {
+    max-width: 450px;
+  }
+  .section-books .slide {
+    width: 400px;
+  }
+  .section-books .slide .slidearea {
+    flex-direction: column;
+  }
+  .section-books .slide .slidearea img {
+    margin: auto;
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  .section-books .slide .slidearea .books-info {
+    width: 400px;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .section-works {
+    flex-wrap: wrap;
+  }
+  .section-works .section-work {
+    min-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .redes {
+    height: 120px;
+  }
+  .redes .section-social--media {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .redes .section-social--media .tell {
+    padding-left: 109px;
+    padding-right: 109px;
+    padding-bottom: 20px;
+  }
+
+  .section-contact {
+    width: 330px;
+  }
+  .section-contact input {
+    width: 100%;
+    height: 35px;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #f9f9f9;
+    color: #aaa;
+    border: none;
+    border-bottom: 2px solid #aaa;
+    margin-bottom: 20px;
+    outline: none;
+  }
+  .section-contact input::placeholder {
+    color: #aaa;
+  }
+  .section-contact .message {
+    margin-top: 30px;
+  }
+  .section-contact .section-contact--name {
+    flex-direction: column;
+  }
+  .section-contact .section-contact--name input {
+    width: 100%;
+  }
+
+  .section-map {
+    padding: 20px;
+  }
+  .section-map .section-map--area {
+    width: auto;
+  }
+  .section-map .section-map--info {
+    width: auto;
+  }
+  .section-map .section-map--info .section-map--info-item {
+    margin-bottom: 20px;
+  }
+  .section-map .section-map--info .section-map--info-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .section-infos {
+    flex-wrap: wrap;
+  }
+  .section-infos .section-info {
+    padding-left: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+  }
+  .section-infos .section-info--sociais,
+.section-infos .section-info--text {
+    min-width: 100%;
+    padding: 10px;
+  }
+  .section-infos .section-info--sociais {
+    justify-content: center;
+  }
+  .section-infos .section-info--form {
+    flex: 0;
+    margin: auto;
+    margin-top: 50px;
+    min-width: 90%;
+    min-height: 250px;
+  }
+}
