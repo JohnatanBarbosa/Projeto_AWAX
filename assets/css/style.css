@@ -20,6 +20,7 @@ header {
   color: #fff;
   position: fixed;
   width: 100vw;
+  z-index: 99;
 }
 header .header {
   max-width: 1140px;
