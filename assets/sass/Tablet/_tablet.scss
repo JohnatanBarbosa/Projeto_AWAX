@@ -18,7 +18,13 @@
         height: calc(100vh - 100px);
         top: 100px;
         right: 0;
+
+        
     }
+    .active1{
+        display: flex;
+    }
+    
 
     .menu{
 
@@ -33,6 +39,11 @@
             font-size: 27px;
             margin-left: 50px;
             border: none;
+
+            &:hover{
+                color: #b28756;
+                border: none;
+            }
         }
         li.active a{
             border: none;
