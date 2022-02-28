@@ -970,6 +970,8 @@ header .logoimg img {
   }
   .section-infos .section-info {
     padding-left: 10px;
+    justify-content: space-evenly;
+    align-items: center;
   }
   .section-infos .section-info--sociais,
 .section-infos .section-info--text {
